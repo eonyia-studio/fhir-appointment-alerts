@@ -6,7 +6,7 @@ A Python script that checks a FHIR test server for cancelled appointments and po
 Clinic operations teams who want a quick daily signal about cancellations without logging into their scheduling system.
 
 ## What it does
-1. Pulls Appointment records with status "cancelled" from the public HAPI FHIR test server (synthetic data only).
+1. Pulls Appointment records with status "cancelled" from the public HAPI FHIR test server that uses synthetic data only.
 2. Counts them.
 3. Sends a summary message to a Slack channel through an Incoming Webhook.
 
